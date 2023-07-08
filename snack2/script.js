@@ -20,10 +20,10 @@ for (let i = 0; i < 10; i++) {
     // Dopo stampa nei DIV creati in HTML tramite ID
     if (casualNumbers % 2 == 0) {
         numbersEven.push(casualNumbers)
-        document.getElementById("red").innerHTML = (`NUMERI PARI: ${numbersEven}`);
+        document.getElementById("green").innerHTML = (`NUMERI PARI: ${numbersEven}`);
     } else {
         numbersOdd.push(casualNumbers)
-        document.getElementById("green").innerHTML = (`NUMERI DISPARI: ${numbersOdd}`);
+        document.getElementById("red").innerHTML = (`NUMERI DISPARI: ${numbersOdd}`);
     }
 }
 
